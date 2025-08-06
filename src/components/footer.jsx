@@ -26,6 +26,11 @@ const footer = () => {
             </a>
         </div>
 
+        <div>
+            <p className="text-sm opacity-70">© 2025 Gibran. All rights reserved.</p> 
+            <p className="text-sm opacity-90"><span>Contact person </span><span className="text-blue-500"><a href="https://wa.me/082161863544">+62 821-6186-3544</a></span></p>
+        </div>
+
     </div>
   )
 }
