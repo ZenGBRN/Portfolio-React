@@ -33,6 +33,9 @@ const Navbar = () => {
             <a href="#about" className="sm:text-lg text-base text-white hover:text-gray-600">About</a>
         </li>
         <li>
+            <a href="#skills" className="sm:text-lg text-base text-white hover:text-gray-600">Skills</a>
+        </li>
+        <li>
             <a href="#projects" className="sm:text-lg text-base text-white hover:text-gray-600">Projects</a>
         </li>
         <li>
