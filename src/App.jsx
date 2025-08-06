@@ -5,11 +5,12 @@ function App() {
 
   return (
     <>
-        <div className="hero grid md:grid-cols-2 items-center pt-10 xl:gap-0 gap-6 grid-cols-1">
-          <div>
+    {/* hero */}
+        <div className="hero grid md:grid-cols-2 items-center pt-10 xl:gap-0 gap-6 grid-cols-1" id="home">
+          <div className="animate__animated animate__fadeInUp animate__delay-2s">
             <div className="flex items-center gap-3 mb-6 bg-zinc-800 p-4 rounded-2xl">
               <img src={DataIMage.HeroImage} alt="Hero Image" className="w-10 rounded-md" loading="lazy"/>
-              <q>Great Power Comes with Great Responsibility 💪🧠</q>
+              <q>Kreatifitas tanpa batas 💪🧠</q>
             </div>
             <h1 className="text-5xl/tight font-bold mb-6">Halo, Saya Gibran Muhammad Niswar Said</h1>
             <p className="text-base/loose mb-6 opacity-50"> Saya adalah Mahasiswa Undergraduate di Universitas Telkom, S1 Teknik Informatika. Mempunyai kemampuan dalam pengembangan web dan mendesain antarmuka pengguna dalam aplikasi atau website. Memiliki kemampuan dalam mendesain, menganalisis masalah, dan mampu bekerja dalam tim.</p>
@@ -18,12 +19,13 @@ function App() {
               <a href="#" className="bg-green-500 text-white p-4 rounded-2xl hover:bg-green-600 transition duration-300">Projects <i className="ri-arrow-down-line ri-lg"></i></a>
             </div>
           </div>
-          <img src={DataIMage.HeroImage} alt="Hero Image" className="w-[500px] md:ml-auto" loading="lazy"/>
+          <img src={DataIMage.HeroImage} alt="Hero Image" className="rounded-4xl w-[500px] md:ml-auto animate__animated animate__fadeInUp animate__delay-3s" loading="lazy"/>
         </div>
+        {/* hero */}
 
-        {/* tentang */}
-        <div className="tentang mt-32 py-10">
-          <div className="xl:w-2/3 lg:w-3/4 w-full mx-auto p-7 bg-zinc-800 rounded-lg">
+        {/* about */}
+        <div className="tentang mt-32 py-10" id="about">
+          <div className="xl:w-2/3 lg:w-3/4 w-full mx-auto p-7 bg-zinc-800 rounded-lg" data-aos="fade-up" data-aos-duration="1000">
             <img src={DataIMage.HeroImage} alt="Image" className="w-12 rounded-mb mb-10 sm:hidden" loading="lazy"/>
             <p className="text-base/loose mb-10">Mempunyai pengalaman dalam pengembangan web yang responsif dan ramah pengguna. Memiliki latar belakang dalam desain UI/UX dan pengembangan front-end.</p>
             <div className="flex items-center justify-between">
@@ -39,12 +41,83 @@ function App() {
               </div>
             </div>
           </div>
+        </div>
+          {/* tentang */}
+          
+        {/* skills */}
+        <div className="skills mt-32 justify-between items-center" id="skills">
+          <h1 className="text-3xl/snug font-bold mb-10" data-aos="fade-up" data-aos-duration="1000">Skills</h1>
+          <p className="xl:w-2/5 lg:w-2/4 md:w-2/3 sm:w-3/4 w-full text-base/loose opacity-50" data-aos="fade-up" data-aos-duration="1000" aos-data-delay="300">
+            Berikut ini beberapa skills yang biasa saya pakai untuk pembuatan Website ataupun Design
+          </p>
+          <div className="skills-box mt-14 grid lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-2 grid-cols-1 gap-6">
+            {/* Skill 1 */}
+            <div
+              className="bg-zinc-800 p-7 rounded-3xl shadow-lg flex flex-col items-center gap-4 transition-all duration-500 hover:scale-105 hover:shadow-2xl hover:bg-zinc-700 hover:-translate-y-2"
+              data-aos="fade-up"
+              data-aos-duration="1000"
+              aos-data-delay="100"
+            >
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" alt="React" className="w-16 mb-2" loading="lazy" />
+              <h2 className="text-xl font-semibold text-center">React JS</h2>
+              <p className="text-sm opacity-70 text-center">Library JavaScript untuk membangun antarmuka pengguna interaktif.</p>
+            </div>
+            {/* Skill 2 */}
+            <div
+              className="bg-zinc-800 p-7 rounded-3xl shadow-lg flex flex-col items-center gap-4 transition-all duration-500 hover:scale-105 hover:shadow-2xl hover:bg-zinc-700 hover:-translate-y-2"
+              data-aos="fade-up"
+              data-aos-duration="1000"
+              aos-data-delay="200"
+            >
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="JavaScript" className="w-16 mb-2" loading="lazy" />
+              <h2 className="text-xl font-semibold text-center">JavaScript</h2>
+              <p className="text-sm opacity-70 text-center">Bahasa pemrograman utama untuk pengembangan web interaktif.</p>
+            </div>
+            {/* Skill 3 */}
+            <div
+              className="bg-zinc-800 p-7 rounded-3xl shadow-lg flex flex-col items-center gap-4 transition-all duration-500 hover:scale-105 hover:shadow-2xl hover:bg-zinc-700 hover:-translate-y-2"
+              data-aos="fade-up"
+              data-aos-duration="1000"
+              aos-data-delay="300"
+            >
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML5" className="w-16 mb-2" loading="lazy" />
+              <h2 className="text-xl font-semibold text-center">HTML5</h2>
+              <p className="text-sm opacity-70 text-center">Struktur dasar halaman web modern dan responsif.</p>
+            </div>
+            {/* Skill 4 */}
+            <div
+              className="bg-zinc-800 p-7 rounded-3xl shadow-lg flex flex-col items-center gap-4 transition-all duration-500 hover:scale-105 hover:shadow-2xl hover:bg-zinc-700 hover:-translate-y-2"
+              data-aos="fade-up"
+              data-aos-duration="1000"
+              aos-data-delay="400"
+            >
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS3" className="w-16 mb-2" loading="lazy" />
+              <h2 className="text-xl font-semibold text-center">CSS3</h2>
+              <p className="text-sm opacity-70 text-center">Mengatur tampilan dan desain halaman web.</p>
+            </div>
+            {/* Skill 5 */}
+            <div
+              className="bg-zinc-800 p-7 rounded-3xl shadow-lg flex flex-col items-center gap-4 transition-all duration-500 hover:scale-105 hover:shadow-2xl hover:bg-zinc-700 hover:-translate-y-2"
+              data-aos="fade-up"
+              data-aos-duration="1000"
+              aos-data-delay="500"
+            >
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg" alt="Figma" className="w-16 mb-2" loading="lazy" />
+              <h2 className="text-xl font-semibold text-center">Figma</h2>
+              <p className="text-sm opacity-70 text-center">Tools untuk desain UI/UX dan prototyping aplikasi/web.</p>
+            </div>
+          </div>
+        </div>
+        {/* skills */}
+   
 
+         {/* tools */}
           <div className="tools mt-32">
-            <h1 className="text-3xl font-bold mb-10">Tools & Technologies</h1>
-            <div className="grid md:grid-cols-4 sm:grid-cols-2 grid-cols-1 gap-6">
+            <h1 className="text-3xl/snug font-bold mb-10" data-aos="fade-up" data-aos-duration="1000">Tools & Technologies</h1>
+            <p className="xl:w-2/5 1g:w-2/4 md:w-2/3 sm:w-3/4 w-full text-base/loose opacity-50" data-aos="fade-up" data-aos-duration="1000" aos-data-delay="300">Berikut ini beberapa tools yang biasa saya pakai untuk pembuatan Website ataupun Design</p>
+            <div className="tools-box mt-14 grid lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-2 grid-cols-1 gap-4">
               {listTools.map((tool) => (
-                <div key={tool.id} className="bg-zinc-800 p-6 rounded-lg flex items-center gap-4">
+                <div key={tool.id} className="bg-zinc-800 p-6 rounded-lg flex items-center gap-4" data-aos="flip-left" data-aos-duration="1000" aos-data-delay={tool.dad}>
                   <img src={tool.gambar} alt={tool.nama} className="w-12" />
                   <div>
                     <h2 className="text-xl font-semibold">{tool.nama}</h2>
@@ -54,16 +127,15 @@ function App() {
               ))}
             </div>
           </div>
-        </div>
-        {/* tentang */}
+        {/* tools */}
 
         {/* projects */}
-        <div className="project mt-32 py-10">
-          <h1 className="text-center text-4xl font-bold mb-2">Projects</h1>
-          <p className="text-base/loose text-center opacity-50">Berikut adalah beberapa proyek yang telah saya kerjakan:</p>
+        <div className="project mt-32 py-10" id="projects">
+          <h1 className="text-center text-4xl font-bold mb-2" data-aos="fade-up" data-aos-duration="1000">Projects</h1>
+          <p className="text-base/loose text-center opacity-50" data-aos="fade-up" data-aos-duration="1000" aos-data-delay="300">Berikut adalah beberapa proyek yang telah saya kerjakan:</p>
           <div className="project-box mt-14 grid lg:grid-cols-3 sm:grid-cols-2 gap-4">
             {listProyek.map((project) => (
-              <div key={project.id} className="p-4 bg-zinc-800 rounded-md">
+              <div key={project.id} className="p-4 bg-zinc-800 rounded-md" data-aos="zoom-in" data-aos-duration="1000" aos-data-delay={project.dad}>
                 <img src={project.gambar} alt="Project Image" />
                 <div>
                   <h1 className="text-2xl font-bold my-4">{project.nama}</h1>
@@ -81,12 +153,13 @@ function App() {
             ))}
           </div>
         </div>
+        {/* projects */}
 
         {/* contact */}
-        <div className="contact mt-32 p-10">
-          <h1 className="text-center text-4xl font-bold mb-2">Contact Me</h1>
-          <p className="text-base/loose text-center mb-10 opacity-50">Jika Anda ingin menghubungi saya, silakan kirim pesan melalui Email</p>
-          <form action="https://formsubmit.co/gibranmunisa@gmail.com" method="POST"  className="w-fit mx-auto bg-zinc-800 p-10 rounded-md" autoComplete="off">
+        <div className="contact mt-32 p-10" id="contact">
+          <h1 className="text-center text-4xl font-bold mb-2" data-aos="fade-up" data-aos-duration="1000">Contact Me</h1>
+          <p className="text-base/loose text-center mb-10 opacity-50" data-aos="fade-up" data-aos-duration="1000" aos-data-delay="300">Jika Terhubung bersama dengan kirim pesan melalui Email</p>
+          <form action="https://formsubmit.co/gibranmunisa@gmail.com" method="POST"  className="w-fit mx-auto bg-zinc-800 p-10 rounded-md" autoComplete="off" data-aos="fade-up" data-aos-duration="1000" aos-data-delay="500">
             <div className="flex flex-col gap-6">
               <div className="flex flex-col gap-2">
                 <label className="font-semibold">Nama</label>
@@ -106,9 +179,10 @@ function App() {
             </div>
           </form>
         </div>
+        {/* contact */}
     </>
 
   );
-}
+};
 
 export default App;

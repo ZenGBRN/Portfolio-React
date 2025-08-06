@@ -1,4 +1,4 @@
-import HeroImage from "/assets/hero-img.webp";
+import HeroImage from "/assets/selfieXD.jpg";
 
 const Image = {
   HeroImage,
@@ -14,7 +14,6 @@ import Tools5 from "/assets/tools/bootstrap.png";
 import Tools6 from "/assets/tools/js.png";
 import Tools7 from "/assets/tools/nodejs.png";
 import Tools8 from "/assets/tools/github.png";
-import Tools9 from "/assets/tools/ai.png";
 import Tools10 from "/assets/tools/canva.png";
 import Tools11 from "/assets/tools/figma.png";
 
@@ -75,22 +74,16 @@ export const listTools = [
     ket: "Repository",
     dad: "800",
   },
+  
   {
     id: 9,
-    gambar: Tools9,
-    nama: "Adobe Illustrator",
-    ket: "Design App",
-    dad: "900",
-  },
-  {
-    id: 10,
     gambar: Tools10,
     nama: "Canva",
     ket: "Design App",
     dad: "1000",
   },
   {
-    id: 11,
+    id: 10,
     gambar: Tools11,
     nama: "Figma",
     ket: "Design App",
@@ -98,60 +91,88 @@ export const listTools = [
   },
 ];
 
-import Proyek1 from "/assets/proyek/proyek1.webp";
-import Proyek2 from "/assets/proyek/proyek2.webp";
-import Proyek3 from "/assets/proyek/proyek3.webp";
-import Proyek4 from "/assets/proyek/proyek4.webp";
-import Proyek5 from "/assets/proyek/proyek5.webp";
-import Proyek6 from "/assets/proyek/proyek6.webp";
+import Proyek1 from "/assets/proyek/proyek1.png";
+import Proyek2 from "/assets/proyek/proyek2.png";
+import Proyek3 from "/assets/proyek/proyek3.png";
+import Proyek4 from "/assets/proyek/proyek4.png";
+import Proyek5 from "/assets/proyek/proyek5.png";
+import Proyek6 from "/assets/proyek/proyek6.png";
+import Proyek7 from "/assets/proyek/proyek7.png";
+import Proyek8 from "/assets/proyek/proyek8.png";
+import Proyek9 from "/assets/proyek/proyek9.png";
 
 export const listProyek = [
   {
     id: 1,
     gambar: Proyek1,
-    nama: "Website Sekolah",
-    desk: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis, laborum!",
-    tools: ["HTML", "CSS", "Javascript", "AOS"],
+    nama: "ILMS (Interactive Learning Management System): Login Page",
+    desk: "Mendesain laman login masuk ke homepage.",
+    tools: ["Figma", "Canva"],
     dad: "200",
   },
   {
     id: 2,
     gambar: Proyek2,
-    nama: "Company Profile",
-    desk: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis, laborum!",
-    tools: ["HTML", "CSS", "Javascript", "AOS", "Swiper", "Lightbox Gallery"],
+    nama: "ILMS: Dashboard",
+    desk: "Dashboard menu box webinar yang terdaftar",
+    tools: ["Figma", "Canva"],
     dad: "300",
   },
   {
     id: 3,
     gambar: Proyek3,
-    nama: "Web Pernikahan 2.0",
-    desk: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis, laborum!",
-    tools: ["Vite", "ReactJS", "TailwindCSS", "AOS"],
+    nama: "ILMS: Webinar",
+    desk: "isi dari halaman webinar yang terdaftar",
+    tools: ["Figma", "Canva"],
     dad: "400",
   },
   {
     id: 4,
     gambar: Proyek4,
-    nama: "Website Course",
+    nama: "Lingo Language Learning",
     desk: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis, laborum!",
-    tools: ["Vite", "ReactJS", "Bootstrap", "AOS"],
+    tools: ["NextJS", "TypeScript", "Javascript", "Html", "CSS"],
     dad: "500",
   },
   {
     id: 5,
     gambar: Proyek5,
-    nama: "Web Portfolio",
+    nama: "Lingo",
     desk: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis, laborum!",
-    tools: ["HTML", "CSS", "Javascript", "Bootsrap"],
+    tools: ["NextJS", "TypeScript", "Javascript", "HTML", "CSS"],
     dad: "600",
   },
   {
     id: 6,
     gambar: Proyek6,
-    nama: "Company Profile 2.0",
+    nama: "Lingo",
     desk: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis, laborum!",
-    tools: ["NextJS", "TailwindCSS", "Framermotion"],
+    tools: ["NextJS", "TypeScript", "Javascript", "HTML", "CSS"],
     dad: "700",
   },
+  {
+    id: 7,
+    gambar: Proyek7,
+    nama: "Lingo",
+    desk: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis, laborum!",
+    tools: ["NextJS", "TypeScript", "Javascript", "HTML", "CSS"],
+    dad: "800",
+  },
+  {
+    id: 8,
+    gambar: Proyek8,
+    nama: "Lingo",
+    desk: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis, laborum!",
+    tools: ["NextJS", "TypeScript", "Javascript", "HTML", "CSS"],
+    dad: "900",
+  },
+  {
+    id: 9,
+    gambar: Proyek9,
+    nama: "Lingo",
+    desk: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis, laborum!",
+    tools: ["NextJS", "TypeScript", "Javascript", "HTML", "CSS"],
+    dad: "1000",
+  },
+  
 ];
