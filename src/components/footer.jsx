@@ -1,7 +1,7 @@
 
 const footer = () => {
   return (
-    <div className="footer bg-zinc-800 text-white p-10 flex flex-col items-center gap-6">
+    <div className="footer rounded-lg bg-zinc-800 text-white p-10 flex flex-col items-center gap-6">
         <h1 className="text-3xl font-bold">
             Gibran's React
             Portfolio
