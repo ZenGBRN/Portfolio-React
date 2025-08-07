@@ -13,10 +13,10 @@ function App() {
               <q>Kreatifitas tanpa batas 💪🧠</q>
             </div>
             <h1 className="text-5xl/tight font-bold mb-6">Halo, Saya Gibran Muhammad Niswar Said</h1>
-            <p className="text-base/loose mb-6 opacity-50"> Saya adalah Mahasiswa Undergraduate di Universitas Telkom, S1 Teknik Informatika. Mempunyai kemampuan dalam pengembangan web dan mendesain antarmuka pengguna dalam aplikasi atau website. Memiliki kemampuan dalam mendesain, menganalisis masalah, dan mampu bekerja dalam tim.</p>
+            <p className="text-base/loose mb-6 opacity-50"> Saya adalah Mahasiswa Undergraduate di Universitas Telkom, S1 Teknik Informatika. Mempunyai kemampuan dalam pengembangan web dan mendesain antarmuka pengguna dalam aplikasi atau website yang responsif. Memiliki kemampuan dalam mendesain, menganalisis masalah, dan mampu bekerja dalam tim. Memanfaatkan AI Tools untuk membantu pengembangan dan debugging pada web dan software.</p>
             <div className="flex items-center sm:gap-4 gap-2">
-              <a href="#" className="bg-blue-500 text-white p-4 rounded-2xl hover:bg-blue-600 transition duration-300">Download CV <i className="ri-download-line ri-lg"></i></a>
-              <a href="#" className="bg-green-500 text-white p-4 rounded-2xl hover:bg-green-600 transition duration-300">Projects <i className="ri-arrow-down-line ri-lg"></i></a>
+              <a href="https://drive.google.com/file/d/1uzqNqY3Ef3PHxnEu1NamSR88ROHlXTVr/view?usp=sharing" className="bg-blue-500 text-white p-4 rounded-2xl hover:bg-blue-600 transition duration-300">View CV <i class="ri-file-text-line"></i></a>
+              <a href="#projects" className="bg-green-500 text-white p-4 rounded-2xl hover:bg-green-600 transition duration-300">Projects <i className="ri-arrow-down-line ri-lg"></i></a>
             </div>
           </div>
           <img src={DataIMage.HeroImage} alt="Hero Image" className="rounded-4xl w-[500px] md:ml-auto animate__animated animate__fadeInUp animate__delay-3s" loading="lazy"/>
@@ -45,12 +45,12 @@ function App() {
           {/* tentang */}
           
         {/* skills */}
-        <div className="skills mt-32 justify-between items-center" id="skills">
+        <div className="skills mt-32 flex flex-col items-center" id="skills">
           <h1 className="text-3xl/snug font-bold mb-10" data-aos="fade-up" data-aos-duration="1000">Skills</h1>
-          <p className="xl:w-2/5 lg:w-2/4 md:w-2/3 sm:w-3/4 w-full text-base/loose opacity-50" data-aos="fade-up" data-aos-duration="1000" aos-data-delay="300">
+          <p className="xl:w-2/5 lg:w-2/4 md:w-2/3 sm:w-3/4 w-full text-base/loose opacity-50 text-center" data-aos="fade-up" data-aos-duration="1000" aos-data-delay="300">
             Berikut ini beberapa skills yang biasa saya pakai untuk pembuatan Website ataupun Design
           </p>
-          <div className="skills-box mt-14 grid lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-2 grid-cols-1 gap-6">
+          <div className="skills-box mt-14 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 justify-center">
             {/* Skill 1 */}
             <div
               className="bg-zinc-800 p-7 rounded-3xl shadow-lg flex flex-col items-center gap-4 transition-all duration-500 hover:scale-105 hover:shadow-2xl hover:bg-zinc-700 hover:-translate-y-2"
@@ -106,6 +106,17 @@ function App() {
               <h2 className="text-xl font-semibold text-center">Figma</h2>
               <p className="text-sm opacity-70 text-center">Tools untuk desain UI/UX dan prototyping aplikasi/web.</p>
             </div>
+            {/* Skill 6 */}
+            <div
+              className="bg-zinc-800 p-7 rounded-3xl shadow-lg flex flex-col items-center gap-4 transition-all duration-500 hover:scale-105 hover:shadow-2xl hover:bg-zinc-700 hover:-translate-y-2"
+              data-aos="fade-up"
+              data-aos-duration="1000"
+              aos-data-delay="600"
+            >
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg" alt="Tailwind CSS" className="w-16 mb-2" loading="lazy" />
+              <h2 className="text-xl font-semibold text-center">Tailwind CSS</h2>
+              <p className="text-sm opacity-70 text-center">Framework CSS untuk desain responsif dan kustomisasi cepat.</p>
+            </div>
           </div>
         </div>
         {/* skills */}
@@ -158,7 +169,7 @@ function App() {
         {/* contact */}
         <div className="contact mt-32 p-10" id="contact">
           <h1 className="text-center text-4xl font-bold mb-2" data-aos="fade-up" data-aos-duration="1000">Contact Me</h1>
-          <p className="text-base/loose text-center mb-10 opacity-50" data-aos="fade-up" data-aos-duration="1000" aos-data-delay="300">Jika Terhubung bersama dengan kirim pesan melalui Email</p>
+          <p className="text-base/loose text-center mb-10 opacity-50" data-aos="fade-up" data-aos-duration="1000" aos-data-delay="300">Terhubung bersama dengan kirim pesan melalui Email</p>
           <form action="https://formsubmit.co/gibranmunisa@gmail.com" method="POST"  className="w-fit mx-auto bg-zinc-800 p-10 rounded-md" autoComplete="off" data-aos="fade-up" data-aos-duration="1000" aos-data-delay="500">
             <div className="flex flex-col gap-6">
               <div className="flex flex-col gap-2">

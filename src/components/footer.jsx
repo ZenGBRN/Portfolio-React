@@ -7,10 +7,11 @@ const footer = () => {
             Portfolio
         </h1>
         <div className="links flex flex-col sm:flex-row gap-4">
-            <a href="#home">Home</a>
-            <a href="#about">About</a>
-            <a href="#projects">Projects</a>
-            <a href="#contact">Contact</a>
+            <a href="#home" className="opacity-80">Home</a>
+            <a href="#about" className="opacity-80">About</a>
+            <a href="#skills" className="opacity-80">Skills</a>
+            <a href="#projects" className="opacity-80">Projects</a>
+            <a href="#contact" className="opacity-80">Contact</a>
         </div>
         <div className="social-icons flex gap-4">
             <a href="https://github.com/ZenGBRN">

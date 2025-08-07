@@ -16,6 +16,8 @@ import Tools7 from "/assets/tools/nodejs.png";
 import Tools8 from "/assets/tools/github.png";
 import Tools10 from "/assets/tools/canva.png";
 import Tools11 from "/assets/tools/figma.png";
+import Tools12 from "/assets/tools/laravel.png";
+import Tools13 from "/assets/tools/ai.svg";
 
 export const listTools = [
   {
@@ -89,6 +91,20 @@ export const listTools = [
     ket: "Design App",
     dad: "1100",
   },
+  {
+    id: 11,
+    gambar: Tools12,
+    nama: "Laravel",
+    ket: "Framework",
+    dad: "1200",
+  },
+  {
+    id: 12,
+    gambar: Tools13,
+    nama: "AI",
+    ket: "Tool",
+    dad: "1300",
+  },
 ];
 
 import Proyek1 from "/assets/proyek/proyek1.png";
@@ -130,49 +146,48 @@ export const listProyek = [
     id: 4,
     gambar: Proyek4,
     nama: "Lingo Language Learning",
-    desk: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis, laborum!",
+    desk: "Tampilan awal dari aplikasi Lingo",
     tools: ["NextJS", "TypeScript", "Javascript", "Html", "CSS"],
     dad: "500",
   },
   {
     id: 5,
     gambar: Proyek5,
-    nama: "Lingo",
-    desk: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis, laborum!",
+    nama: "Lingo: language selection",
+    desk: "pilihan bahasa yang ingin dipelajari",
     tools: ["NextJS", "TypeScript", "Javascript", "HTML", "CSS"],
     dad: "600",
   },
   {
     id: 6,
     gambar: Proyek6,
-    nama: "Lingo",
-    desk: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis, laborum!",
+    nama: "Lingo: start learning",
+    desk: "laman belajar bahasa",
     tools: ["NextJS", "TypeScript", "Javascript", "HTML", "CSS"],
     dad: "700",
   },
   {
     id: 7,
     gambar: Proyek7,
-    nama: "Lingo",
-    desk: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis, laborum!",
+    nama: "Lingo: leaderboard",
+    desk: "laman leaderboard pemain",
     tools: ["NextJS", "TypeScript", "Javascript", "HTML", "CSS"],
     dad: "800",
   },
   {
     id: 8,
     gambar: Proyek8,
-    nama: "Lingo",
-    desk: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis, laborum!",
+    nama: "Lingo: player achievement",
+    desk: "Laman Achievement Pemain",
     tools: ["NextJS", "TypeScript", "Javascript", "HTML", "CSS"],
     dad: "900",
   },
   {
     id: 9,
     gambar: Proyek9,
-    nama: "Lingo",
-    desk: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis, laborum!",
+    nama: "Lingo: Shop",
+    desk: "Laman belanja item pemain dengan opsi upgrade fitur nyawa pemain dan ke versi pro",
     tools: ["NextJS", "TypeScript", "Javascript", "HTML", "CSS"],
     dad: "1000",
   },
-  
 ];
