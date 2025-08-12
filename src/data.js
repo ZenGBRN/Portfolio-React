@@ -18,6 +18,8 @@ import Tools10 from "/assets/tools/canva.png";
 import Tools11 from "/assets/tools/figma.png";
 import Tools12 from "/assets/tools/laravel.png";
 import Tools13 from "/assets/tools/ai.svg";
+import Tools14 from "/assets/tools/Java-Logo.png";
+import Tools15 from "/assets/tools/C++_Logo.png";
 
 export const listTools = [
   {
@@ -105,6 +107,21 @@ export const listTools = [
     ket: "Tool",
     dad: "1300",
   },
+  {
+    id: 13,
+    gambar: Tools14,
+    nama: "Java",
+    ket: "Language",
+    dad: "1400",
+  },
+  {
+    id: 14,
+    gambar: Tools15,
+    nama: "C++",
+    ket: "Language",
+    dad: "1500",
+  },
+
 ];
 
 import Proyek1 from "/assets/proyek/proyek1.png";

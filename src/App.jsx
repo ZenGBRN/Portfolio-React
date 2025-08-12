@@ -124,8 +124,8 @@ function App() {
 
          {/* tools */}
           <div className="tools mt-32">
-            <h1 className="text-3xl/snug font-bold mb-10" data-aos="fade-up" data-aos-duration="1000">Tools & Technologies</h1>
-            <p className="xl:w-2/5 1g:w-2/4 md:w-2/3 sm:w-3/4 w-full text-base/loose opacity-50" data-aos="fade-up" data-aos-duration="1000" aos-data-delay="300">Berikut ini beberapa tools yang biasa saya pakai untuk pembuatan Website ataupun Design</p>
+            <h1 className="text-3xl/snug font-bold mb-10" data-aos="fade-up" data-aos-duration="1000">Tools & Other Language</h1>
+            <p className="xl:w-2/5 1g:w-2/4 md:w-2/3 sm:w-3/4 w-full text-base/loose opacity-50" data-aos="fade-up" data-aos-duration="1000" aos-data-delay="300">Berikut ini beberapa tools yang biasa saya pakai untuk pembuatan Website ataupun Design dan bahasa pemrograman lainnya:</p>
             <div className="tools-box mt-14 grid lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-2 grid-cols-1 gap-4">
               {listTools.map((tool) => (
                 <div key={tool.id} className="bg-zinc-800 p-6 rounded-lg flex items-center gap-4" data-aos="flip-left" data-aos-duration="1000" aos-data-delay={tool.dad}>
