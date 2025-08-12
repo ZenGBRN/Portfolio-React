@@ -157,7 +157,7 @@ function App() {
                     ))}
                   </div>
                   <div className="mt-4 text-center">
-                    <a href="#" className="bg-blue-500 p-3 rounded-lg block border border-zinc-600 hover:bg-blue-600 text-white transition duration-300">View Project</a>
+                    <a href="#" className="bg-blue-500 p-3 rounded-lg block border border-zinc-600 hover:bg-blue-600 text-white transition duration-300">View Project on CV</a>
                   </div>
                 </div>
               </div>
