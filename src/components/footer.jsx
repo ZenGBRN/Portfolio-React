@@ -3,7 +3,7 @@ const footer = () => {
   return (
     <div className="footer rounded-lg bg-zinc-800 text-white p-10 flex flex-col items-center gap-6">
         <h1 className="text-3xl font-bold">
-            Gibran's React
+            ReactJS
             Portfolio
         </h1>
         <div className="links flex flex-col sm:flex-row gap-4">
@@ -26,7 +26,7 @@ const footer = () => {
         </div>
 
         <div>
-            <p className="text-sm opacity-70">© 2025 Gibran. Informatics, Telkom University.</p> 
+            <p className="text-sm opacity-70">Gibran Muhammad Niswar Said, 1301224442. Undergraduate, Informatics. Telkom University.</p> 
             <p className="text-sm opacity-90"><span>contact person </span><span className="text-blue-500"><a href="https://wa.me/6282161863544">+62 821-6186-3544</a></span></p>
         </div>
 
