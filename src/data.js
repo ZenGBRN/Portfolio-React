@@ -1,4 +1,4 @@
-import HeroImage from "/assets/selfieXD.jpg";
+import HeroImage from "/assets/selfphoto.jpg";
 
 const Image = {
   HeroImage,
@@ -20,6 +20,9 @@ import Tools12 from "/assets/tools/laravel.png";
 import Tools13 from "/assets/tools/ai.svg";
 import Tools14 from "/assets/tools/Java-Logo.png";
 import Tools15 from "/assets/tools/C++_Logo.png";
+import Tools9 from "/assets/tools/phplogo.png";
+import Tools16 from "/assets/tools/sqllogo.png";  
+import tools17 from "/assets/tools/typescriptlogo.png";
 
 export const listTools = [
   {
@@ -120,6 +123,27 @@ export const listTools = [
     nama: "C++",
     ket: "Language",
     dad: "1500",
+  },
+  {
+    id: 15,
+    gambar: Tools9,
+    nama: "PHP",
+    ket: "Language",
+    dad: "1600",
+  },
+  {
+    id: 16,
+    gambar: Tools16,
+    nama: "SQL",
+    ket: "Database",
+    dad: "1700",
+  },
+  {
+    id: 17,
+    gambar: tools17,
+    nama: "TypeScript",
+    ket: "Language",
+    dad: "1800",
   },
 
 ];

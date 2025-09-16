@@ -33,10 +33,10 @@ function App() {
               <div className="flex item-center gap-6">
                 <div>
                 <h1 className="text-4xl mb-1">
-                  2
-                  <span className="text-blue-600">+</span>
+                  S1, Informatika
+                  <span className="text-blue-600"></span>
                 </h1>
-                <p>Proyek Selesai</p>
+                <p style={{ textAlign: "right" }}>Telkom University</p>
                 </div>
               </div>
             </div>
@@ -48,7 +48,7 @@ function App() {
         <div className="skills mt-32 flex flex-col items-center" id="skills">
           <h1 className="text-3xl/snug font-bold mb-10" data-aos="fade-up" data-aos-duration="1000">Skills</h1>
           <p className="xl:w-2/5 lg:w-2/4 md:w-2/3 sm:w-3/4 w-full text-base/loose opacity-50 text-center" data-aos="fade-up" data-aos-duration="1000" aos-data-delay="300">
-            Berikut ini beberapa skills yang biasa saya pakai untuk pembuatan Website ataupun Design
+            Berikut ini beberapa skills yang biasa saya pakai untuk pembuatan website ataupun design
           </p>
           <div className="skills-box mt-14 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 justify-center">
             {/* Skill 1 */}
