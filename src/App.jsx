@@ -13,7 +13,7 @@ function App() {
               <q>Kreatifitas tanpa batas 💪🧠</q>
             </div>
             <h1 className="text-5xl/tight font-bold mb-6">Halo, Saya Gibran Muhammad Niswar Said</h1>
-            <p className="text-base/loose mb-6 opacity-50"> Saya adalah Mahasiswa Undergraduate di Universitas Telkom, S1 Teknik Informatika. Mempunyai kemampuan dalam pengembangan web dan mendesain antarmuka pengguna dalam aplikasi atau website yang responsif. Memiliki kemampuan dalam mendesain, menganalisis masalah, dan mampu bekerja dalam tim. Memanfaatkan AI Tools untuk membantu pengembangan dan debugging pada web dan software.</p>
+            <p className="text-base/loose mb-6 opacity-50"> Saya adalah Mahasiswa di Universitas Telkom, S1 Informatika. Mempunyai kemampuan dalam pengembangan web dan mendesain antarmuka pengguna dalam aplikasi dan website responsif. Memiliki kemampuan dalam mendesain, menganalisis masalah, dan mampu bekerja dalam tim. Mengerti basis pengetahuan RESTful API, pemrograman berorientasi object, dan dasar aturan pengembangan perangkat lunak. Memanfaatkan AI Tools untuk membantu automasi, generasi pengembangan, dan debugging pada pengembangan website dan aplikasi.</p>
             <div className="flex items-center sm:gap-4 gap-2">
               <a href="https://drive.google.com/file/d/1uzqNqY3Ef3PHxnEu1NamSR88ROHlXTVr/view?usp=sharing" className="bg-blue-500 text-white p-4 rounded-2xl hover:bg-blue-600 transition duration-300">View CV <i class="ri-file-text-line"></i></a>
               <a href="#projects" className="bg-green-500 text-white p-4 rounded-2xl hover:bg-green-600 transition duration-300">Projects <i className="ri-arrow-down-line ri-lg"></i></a>
@@ -27,7 +27,7 @@ function App() {
         <div className="tentang mt-32 py-10" id="about">
           <div className="xl:w-2/3 lg:w-3/4 w-full mx-auto p-7 bg-zinc-800 rounded-lg" data-aos="fade-up" data-aos-duration="1000">
             <img src={DataIMage.HeroImage} alt="Image" className="w-12 rounded-mb mb-10 sm:hidden" loading="lazy"/>
-            <p className="text-base/loose mb-10">Mempunyai pengalaman dalam pengembangan web yang responsif dan ramah pengguna. Memiliki latar belakang dalam desain UI/UX dan pengembangan front-end.</p>
+            <p className="text-base/loose mb-10">Antusias dalam pengembangan web yang responsif dan ramah pengguna. Memiliki latar belakang dalam desain UI/UX, pengembangan front-end dan back-end. Menempuh karir pada bidang pengembangan full-stack.</p>
             <div className="flex items-center justify-between">
               <img src={DataIMage.HeroImage} alt="Image" className="w-12 rounded-md sm:block hidden" loading="lazy"/>
               <div className="flex item-center gap-6">
@@ -48,7 +48,7 @@ function App() {
         <div className="skills mt-32 flex flex-col items-center" id="skills">
           <h1 className="text-3xl/snug font-bold mb-10" data-aos="fade-up" data-aos-duration="1000">Skills</h1>
           <p className="xl:w-2/5 lg:w-2/4 md:w-2/3 sm:w-3/4 w-full text-base/loose opacity-50 text-center" data-aos="fade-up" data-aos-duration="1000" aos-data-delay="300">
-            Berikut ini beberapa skills yang biasa saya pakai untuk pembuatan website ataupun design
+            Berikut ini adalaha skill yang biasa saya pakai untuk pembuatan website ataupun aplikasi:
           </p>
           <div className="skills-box mt-14 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 justify-center">
             {/* Skill 1 */}
@@ -141,9 +141,9 @@ function App() {
         {/* tools */}
 
         {/* projects */}
-        <div className="project mt-32 py-10" id="projects">
+        <div className="d-flex align-items-center justify-content:center project mt-32 py-10" id="projects">
           <h1 className="text-center text-4xl font-bold mb-2" data-aos="fade-up" data-aos-duration="1000">Projects</h1>
-          <p className="text-base/loose text-center opacity-50" data-aos="fade-up" data-aos-duration="1000" aos-data-delay="300">Berikut adalah beberapa proyek yang telah saya kerjakan:</p>
+          <p className="text-base/loose text-center opacity-50" data-aos="fade-up" data-aos-duration="1000" aos-data-delay="300">Berikut adalah proyek kampus yang telah saya kerjakan:</p>
           <div className="project-box mt-14 grid lg:grid-cols-3 sm:grid-cols-2 gap-4">
             {listProyek.map((project) => (
               <div key={project.id} className="p-4 bg-zinc-800 rounded-md" data-aos="zoom-in" data-aos-duration="1000" aos-data-delay={project.dad}>
@@ -157,7 +157,14 @@ function App() {
                     ))}
                   </div>
                   <div className="mt-4 text-center">
-                    <a href="#" className="bg-blue-500 p-3 rounded-lg block border border-zinc-600 hover:bg-blue-600 text-white transition duration-300">View Project on CV</a>
+                    <a
+                      href={project.link ? project.link : "#"}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="bg-blue-500 p-3 rounded-lg block border border-zinc-600 hover:bg-blue-600 text-white transition duration-300"
+                    >
+                      View Project
+                    </a>
                   </div>
                 </div>
               </div>
