@@ -10,7 +10,7 @@ function App() {
           <div className="animate__animated animate__fadeInUp animate__delay-2s">
             <div className="flex items-center gap-3 mb-6 bg-zinc-800 p-4 rounded-2xl">
               <img src={DataIMage.HeroImage} alt="Hero Image" className="w-10 rounded-md" loading="lazy"/>
-              <q>Kreatifitas tanpa batas 💪🧠</q>
+              <q>When logic meets creativity.</q>
             </div>
             <h1 className="text-5xl/tight font-bold mb-6">Hello, I'm Gibran Muhammad Niswar Said</h1>
             <p className="text-base/loose mb-6 opacity-50"> I am a student at Telkom University, majoring in Informatics. I have expertise in web development and user interface design for responsive applications and websites. I am experienced in design and problem analysis combined with teamwork. I understand the RESTful API, object-oriented programming, and basic software development rules. I utilize AI tools to assist with automation, development generation, and debugging in website and application development.</p>
