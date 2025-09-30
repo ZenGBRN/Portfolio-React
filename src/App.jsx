@@ -12,8 +12,8 @@ function App() {
               <img src={DataIMage.HeroImage} alt="Hero Image" className="w-10 rounded-md" loading="lazy"/>
               <q>Kreatifitas tanpa batas 💪🧠</q>
             </div>
-            <h1 className="text-5xl/tight font-bold mb-6">Halo, Saya Gibran Muhammad Niswar Said</h1>
-            <p className="text-base/loose mb-6 opacity-50"> Saya adalah Mahasiswa di Universitas Telkom, S1 Informatika. Mempunyai kemampuan dalam pengembangan web dan mendesain antarmuka pengguna dalam aplikasi dan website responsif. Memiliki kemampuan dalam mendesain, menganalisis masalah, dan mampu bekerja dalam tim. Mengerti basis pengetahuan RESTful API, pemrograman berorientasi object, dan dasar aturan pengembangan perangkat lunak. Memanfaatkan AI Tools untuk membantu automasi, generasi pengembangan, dan debugging pada pengembangan website dan aplikasi.</p>
+            <h1 className="text-5xl/tight font-bold mb-6">Hello, I'm Gibran Muhammad Niswar Said</h1>
+            <p className="text-base/loose mb-6 opacity-50"> I am a student at Telkom University, majoring in Informatics. I have expertise in web development and user interface design for responsive applications and websites. I am experienced in design and problem analysis combined with teamwork. I understand the RESTful API, object-oriented programming, and basic software development rules. I utilize AI tools to assist with automation, development generation, and debugging in website and application development.</p>
             <div className="flex items-center sm:gap-4 gap-2">
               <a href="https://drive.google.com/file/d/1uzqNqY3Ef3PHxnEu1NamSR88ROHlXTVr/view?usp=sharing" className="bg-blue-500 text-white p-4 rounded-2xl hover:bg-blue-600 transition duration-300">View CV <i class="ri-file-text-line"></i></a>
               <a href="#projects" className="bg-green-500 text-white p-4 rounded-2xl hover:bg-green-600 transition duration-300">Projects <i className="ri-arrow-down-line ri-lg"></i></a>
@@ -27,13 +27,13 @@ function App() {
         <div className="tentang mt-32 py-10" id="about">
           <div className="xl:w-2/3 lg:w-3/4 w-full mx-auto p-7 bg-zinc-800 rounded-lg" data-aos="fade-up" data-aos-duration="1000">
             <img src={DataIMage.HeroImage} alt="Image" className="w-12 rounded-mb mb-10 sm:hidden" loading="lazy"/>
-            <p className="text-base/loose mb-10">Antusias dalam pengembangan web yang responsif dan ramah pengguna. Memiliki latar belakang dalam desain UI/UX, pengembangan front-end dan back-end. Menempuh karir pada bidang pengembangan full-stack.</p>
+            <p className="text-base/loose mb-10">Passionate about responsive and user-friendly web development. Having a background in UI/UX design, front-end, and back-end development. Pursuing a career in full-stack development.</p>
             <div className="flex items-center justify-between">
               <img src={DataIMage.HeroImage} alt="Image" className="w-12 rounded-md sm:block hidden" loading="lazy"/>
               <div className="flex item-center gap-6">
                 <div>
                 <h1 className="text-4xl mb-1">
-                  S1, Informatika
+                  S1, Informatics
                   <span className="text-blue-600"></span>
                 </h1>
                 <p style={{ textAlign: "right" }}>Telkom University</p>
@@ -48,7 +48,7 @@ function App() {
         <div className="skills mt-32 flex flex-col items-center" id="skills">
           <h1 className="text-3xl/snug font-bold mb-10" data-aos="fade-up" data-aos-duration="1000">Skills</h1>
           <p className="xl:w-2/5 lg:w-2/4 md:w-2/3 sm:w-3/4 w-full text-base/loose opacity-50 text-center" data-aos="fade-up" data-aos-duration="1000" aos-data-delay="300">
-            Berikut ini adalaha skill yang biasa saya pakai untuk pembuatan website ataupun aplikasi:
+            My base skills for development:
           </p>
           <div className="skills-box mt-14 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 justify-center">
             {/* Skill 1 */}
@@ -60,7 +60,7 @@ function App() {
             >
               <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" alt="React" className="w-16 mb-2" loading="lazy" />
               <h2 className="text-xl font-semibold text-center">React JS</h2>
-              <p className="text-sm opacity-70 text-center">Library JavaScript untuk membangun antarmuka pengguna interaktif.</p>
+              <p className="text-sm opacity-70 text-center">Javascript library for interactive user interface.</p>
             </div>
             {/* Skill 2 */}
             <div
@@ -71,7 +71,7 @@ function App() {
             >
               <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="JavaScript" className="w-16 mb-2" loading="lazy" />
               <h2 className="text-xl font-semibold text-center">JavaScript</h2>
-              <p className="text-sm opacity-70 text-center">Bahasa pemrograman utama untuk pengembangan web interaktif.</p>
+              <p className="text-sm opacity-70 text-center">The primary programming language for interactive web development.</p>
             </div>
             {/* Skill 3 */}
             <div
@@ -82,7 +82,7 @@ function App() {
             >
               <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML5" className="w-16 mb-2" loading="lazy" />
               <h2 className="text-xl font-semibold text-center">HTML5</h2>
-              <p className="text-sm opacity-70 text-center">Struktur dasar halaman web modern dan responsif.</p>
+              <p className="text-sm opacity-70 text-center">The basic structure of a modern, responsive web page.</p>
             </div>
             {/* Skill 4 */}
             <div
@@ -93,7 +93,7 @@ function App() {
             >
               <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS3" className="w-16 mb-2" loading="lazy" />
               <h2 className="text-xl font-semibold text-center">CSS3</h2>
-              <p className="text-sm opacity-70 text-center">Mengatur tampilan dan desain halaman web.</p>
+              <p className="text-sm opacity-70 text-center">Manage the appearance and design of web pages.</p>
             </div>
             {/* Skill 5 */}
             <div
@@ -104,7 +104,7 @@ function App() {
             >
               <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg" alt="Figma" className="w-16 mb-2" loading="lazy" />
               <h2 className="text-xl font-semibold text-center">Figma</h2>
-              <p className="text-sm opacity-70 text-center">Tools untuk desain UI/UX dan prototyping aplikasi/web.</p>
+              <p className="text-sm opacity-70 text-center">Tools for UI/UX design and application/web prototyping.</p>
             </div>
             {/* Skill 6 */}
             <div
@@ -115,7 +115,7 @@ function App() {
             >
               <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg" alt="Tailwind CSS" className="w-16 mb-2" loading="lazy" />
               <h2 className="text-xl font-semibold text-center">Tailwind CSS</h2>
-              <p className="text-sm opacity-70 text-center">Framework CSS untuk desain responsif dan kustomisasi cepat.</p>
+              <p className="text-sm opacity-70 text-center">CSS framework for responsive design and fast customization.</p>
             </div>
           </div>
         </div>
@@ -125,7 +125,7 @@ function App() {
          {/* tools */}
           <div className="tools mt-32">
             <h1 className="text-3xl/snug font-bold mb-10" data-aos="fade-up" data-aos-duration="1000">Tools & Other Language</h1>
-            <p className="xl:w-2/5 1g:w-2/4 md:w-2/3 sm:w-3/4 w-full text-base/loose opacity-50" data-aos="fade-up" data-aos-duration="1000" aos-data-delay="300">Berikut ini beberapa tools yang biasa saya pakai untuk pembuatan Website ataupun Design dan bahasa pemrograman lainnya:</p>
+            <p className="xl:w-2/5 1g:w-2/4 md:w-2/3 sm:w-3/4 w-full text-base/loose opacity-50" data-aos="fade-up" data-aos-duration="1000" aos-data-delay="300">Tools and other languages I have base knowledge on:</p>
             <div className="tools-box mt-14 grid lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-2 grid-cols-1 gap-4">
               {listTools.map((tool) => (
                 <div key={tool.id} className="bg-zinc-800 p-6 rounded-lg flex items-center gap-4" data-aos="flip-left" data-aos-duration="1000" aos-data-delay={tool.dad}>
@@ -143,7 +143,7 @@ function App() {
         {/* projects */}
         <div className="d-flex align-items-center justify-content:center project mt-32 py-10" id="projects">
           <h1 className="text-center text-4xl font-bold mb-2" data-aos="fade-up" data-aos-duration="1000">Projects</h1>
-          <p className="text-base/loose text-center opacity-50" data-aos="fade-up" data-aos-duration="1000" aos-data-delay="300">Berikut adalah proyek kampus yang telah saya kerjakan:</p>
+          <p className="text-base/loose text-center opacity-50" data-aos="fade-up" data-aos-duration="1000" aos-data-delay="300">Campus course final projects:</p>
           <div className="project-box mt-14 grid lg:grid-cols-3 sm:grid-cols-2 gap-4">
             {listProyek.map((project) => (
               <div key={project.id} className="p-4 bg-zinc-800 rounded-md" data-aos="zoom-in" data-aos-duration="1000" aos-data-delay={project.dad}>
@@ -176,11 +176,11 @@ function App() {
         {/* contact */}
         <div className="contact mt-32 p-10" id="contact">
           <h1 className="text-center text-4xl font-bold mb-2" data-aos="fade-up" data-aos-duration="1000">Contact Me</h1>
-          <p className="text-base/loose text-center mb-10 opacity-50" data-aos="fade-up" data-aos-duration="1000" aos-data-delay="300">Terhubung bersama dengan kirim pesan melalui Email</p>
+          <p className="text-base/loose text-center mb-10 opacity-50" data-aos="fade-up" data-aos-duration="1000" aos-data-delay="300">Connect me with email</p>
           <form action="https://formsubmit.co/gibranmunisa@gmail.com" method="POST"  className="w-fit mx-auto bg-zinc-800 p-10 rounded-md" autoComplete="off" data-aos="fade-up" data-aos-duration="1000" aos-data-delay="500">
             <div className="flex flex-col gap-6">
               <div className="flex flex-col gap-2">
-                <label className="font-semibold">Nama</label>
+                <label className="font-semibold">Name</label>
                 <input type="text" name="nama" placeholder="Nama lengkap..." required className="bg-zinc-700 border border-zinc-500 p-2 rounded-md" />
               </div>
               <div className="flex flex-col gap-2">
@@ -188,11 +188,11 @@ function App() {
                 <input type="text" name="email" placeholder="email@example.com" required className="bg-zinc-700 border border-zinc-500 p-2 rounded-md" />
               </div>
               <div className="flex flex-col gap-2">
-                <label htmlFor="pesan" className="font-semibold">Pesan</label>
+                <label htmlFor="pesan" className="font-semibold">MEssage</label>
                 <textarea name="message" id="pesan" cols="45" rows="7" placeholder="Pesan anda.." required className="bg-zinc-700 border border-zinc-500 p-2 rounded-md"></textarea>
               </div>
               <div>
-                <button type="submit" className="mt-2 bg-green-500 text-white p-3 rounded-lg hover:bg-green-600 transition duration-300">Kirim Pesan</button>
+                <button type="submit" className="mt-2 bg-green-500 text-white p-3 rounded-lg hover:bg-green-600 transition duration-300">Send</button>
               </div>
             </div>
           </form>
