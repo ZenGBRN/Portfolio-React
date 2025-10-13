@@ -163,7 +163,7 @@ function App() {
                       rel="noopener noreferrer"
                       className="bg-blue-500 p-3 rounded-lg block border border-zinc-600 hover:bg-blue-600 text-white transition duration-300"
                     >
-                      View Project
+                      View Project via GitHub
                     </a>
                   </div>
                 </div>
